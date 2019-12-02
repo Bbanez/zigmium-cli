@@ -1,0 +1,47 @@
+{
+  "name": "zigmium-cli",
+  "version": "1.0.0",
+  "description": "CLI for Zigmium bootstrap.",
+  "main": "index.js",
+  "bin": {
+    "zigmium-cli": "bin/zigmium-cli.js"
+  },
+  "scripts": {
+    "ts-build": "tsc -p ."
+  },
+  "keywords": [
+    "zigmium-cli"
+  ],
+  "author": "Branislav Vajagic",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "execa": "^3.4.0",
+    "fs-extra": "^8.1.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/execa": "^2.0.0",
+    "@types/fs-extra": "^8.0.1",
+    "@types/listr": "^0.14.2",
+    "@types/ncp": "^2.0.3",
+    "@types/node": "^12.11.7",
+    "ts-node": "^8.4.1",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bbanez/zigmium-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bbanez/zigmium-cli/issues"
+  },
+  "homepage": "https://github.com/Bbanez/zigmium-cli#readme"
+}
