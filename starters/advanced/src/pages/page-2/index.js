@@ -5,7 +5,7 @@ const index = new Index({
   target: document.getElementById('root'),
   props: {
     // Variable __pageInfo__ will be available in pl-node.js
-    pageInfo: __pageInfo__
+    pageInfo: '__pageInfo__'
   }
 });
 

@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "zigmium": "^1.0.1"
+    "zigmium": "^1.0"
   },
   "devDependencies": {
     "fs-extra": "^8.1.0"

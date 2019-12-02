@@ -61,8 +61,6 @@ async function createProject(options: any) {
     },
   ]);
   await tasks.run();
-  // await copyTemplateFiles(options);
-  // tslint:disable-next-line:no-console
   console.log('%s Zigmium project is ready.', chalk.green.bold('DONE'));
 }
 
